@@ -1,4 +1,4 @@
-# Drum kit App 🐶
+# Drum kit App 🥁
 
 This project is part of the Scrimba course [AI Coding for Non-Coders](https://scrimba.com/learn/aicoding) to build a Drum kit app that responds to mouse clicks and keyboard presses. The application is built using HTML, CSS, and JavaScript.
 
