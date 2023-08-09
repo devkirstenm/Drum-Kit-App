@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit App</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>
+        Virtual Drum
+    </h1>
+    <div class="drum-kit">
+        <!-- Button to play the sounds -->
+        <button id="kickButton">Kick</button>
+        <button id="rideButton">Ride</button>
+        <button id="snareButton">Snare</button>
+        <button id="tomButton">Tom</button>
+        <button id="hihatButton">Hi-hat</button>
+    </div>
+    <!-- Audio element to preload the sounds -->
+    <audio id="kickSound" preload="auto">
+        <source src="sounds/kick.wav" type="audio/wav">
+    </audio>
+    <audio id="rideSound" preload="auto">
+        <source src="sounds/ride.wav" type="audio/wav">
+    </audio>
+    <audio id="snareSound" preload="auto">
+        <source src="sounds/snare.wav" type="audio/wav">
+    </audio>
+    <audio id="tomSound" preload="auto">
+        <source src="sounds/tom.wav" type="audio/wav">
+    </audio>
+    <audio id="hihatSound" preload="auto">
+        <source src="sounds/hihat.wav" type="audio/wav">
+    </audio>
+    <!-- Link to the external JavaScript file -->
+    <script src="./scripts.js"></script>
+</body>
+</html>
